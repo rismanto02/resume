@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Resume Rismanto Ahirudin</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Rismanto</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class='bx bx-home nav-icon'></i>Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class='bx bx-user nav-icon'></i>Profile
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class='bx bx-book nav-icon'></i>Education
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class='bx bx-receipt nav-icon'></i>Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">
+              <i class='bx bx-briefcase-alt nav-icon'></i>Experience
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#certificates" class="nav__link">
+              <i class='bx bx-award nav-icon'></i>Certificates
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main bd-container">
+    <!-- all elements within this dev, is generated in PDF -->
+    <div class="resume" id="area-cv">
+      <div class="resume__left">
+        <!-- home -->
+        <section class="home" id="home">
+          <div class="home__container section bd-grid">
+            <div class="home__data bd-grid">
+              <img src="assets/img/profile.png" alt="" class="home__img">
+
+              <h1 class="home__title">RISMANTO <b>AHIRUDIN</h1>
+              <h3 class="home__profession">Backend Developer</h3>
+
+              <!-- button to download your cv saved in the pdf folder. available for mobile -->
+              <div>
+                <a download="" href="assets/pdf/resume-cv.pdf" class="home__button-movil">Download</a>
+              </div>
+            </div>
+
+            <div class="home__address bd-grid">
+              <span class="home__information">
+                <i class='bx bx-map home__icon'></i> Jl. H. Gofur Komplek Isra Residance, Kab. Bandung Barat, Indonesia
+              </span>
+              <span class="home__information">
+                <i class='bx bx-envelope home__icon'></i> rismanto.ahirudin@gmail.com
+              </span>
+              <span class="home__information">
+                <i class='bx bx-phone home__icon'></i> 08981806554
+              </span>
+            </div>
+          </div>
+
+          <!-- theme change button -->
+          <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+          <!-- button to generate and download the pdf. available for -->
+          <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+        </section>
+
+        <!-- social -->
+        <section class="social section">
+          <h2 class="section-title">SOCIAL</h2>
+
+          <div class="social__container bd-grid">
+            <a href="https://www.linkedin.com/in/rismanto-ahirudin-968a55146" target="_blank" class="social__link">
+              <i class='bx bxl-linkedin-square social__icon' ></i> @rismanto.ahirudin
+            </a>
+            <!-- github -->
+            <!-- etc -->
+          </div>
+        </section>
+
+        <!-- profile -->
+        <section class="profile section" id="profile">
+          <h2 class="section-title">Profile</h2>
+
+          <p class="profile-description">
+            Create API’s for new feature in project, Integration with team, Pairing about development to new member staff and client in some project,
+            Can implement any 3rd party or library with read Doc.
+          </p>
+          <br/>
+          <p class="profile-description">
+            Use Database like SQL or NoSQL, Engine like Kafka, Elasticsearch, Minio, Redis.
+          </p>
+        </section>
+
+        <!-- education -->
+        <section class="education section" id="education">
+          <h2 class="section-title">Education</h2>
+
+          <div class="education__container bd-grid">
+            <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+              </div>
+              <div class="education__data bd-grid">
+                <h3 class="education__title">Universitas Nasional PASIM</h3>
+                <span class="education__studies">Bachelor degree, Informatics</span>
+                <span class="education__year">2020 – 2022</span>
+              </div>
+            </div>
+
+            <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+              </div>
+              <div class="education__data bd-grid">
+                <h3 class="education__title">Universitas Sangga Buana YPKP</h3>
+                <span class="education__studies">Associate Degree, Informatics</span>
+                <span class="education__year">2012 – 2015</span>
+              </div>
+            </div>
+
+            <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <!-- <span class="education__line"></span> -->
+              </div>
+              <div class="education__data bd-grid">
+                <h3 class="education__title">SMK Cipta Skill</h3>
+                <span class="education__studies">Informatics</span>
+                <span class="education__year">2009 – 2012</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- skills -->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+
+          <div class="skills__content bd-grid">
+            <ul class="skills__data">
+              <li class="skills__name">
+                <span class="skills__circle"></span> Go
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span> Node JS
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span> Java
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span> PHP
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span> VB .NET
+              </li>
+            </ul>
+            <ul class="skills__data">
+              <li class="skills__name">
+                <span class="skills__circle"></span> Scrum Team
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span> Consistent
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span> Self Development
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <div class="resume__right">
+        <!-- experience -->
+        <section class="experience section" id="experience">
+          <h2 class="section-title">Experience</h2>
+
+          <div class="experience__container bd-grid">
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Back End Developer</h3>
+                <span class="experience__company">
+                  Nov 2020 – Present | Telkom Indonesia
+                </span>
+                <p class="experience__description">
+                  Create feature on web and apps Mypertamina. create API's, worker, report, payment, etc.
+                  Here the service is microservice concept.
+                  Use Go, NodeJS, NoSQL and MySQL, Elasticsearch, Minio, Redis, Kafka and so on for make the application.
+                </p>
+              </div>
+            </div>
+
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Back End Developer</h3>
+                <span class="experience__company">
+                  Jun 2020 – Oct 2020 (5M) | Solusi Konvergen Indonesia
+                </span>
+                <p class="experience__description">
+                  Create feature on web and apps Mypertamina. create API's, worker, report, etc.
+                  Here the service is microservice concept.
+                  Use NodeJS, NoSQL and MySQL, Elasticsearch, Minio, Redis, Kafka and so on for make the application.
+                </p>
+              </div>
+            </div>
+
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Full Stack Developer</h3>
+                <span class="experience__company">
+                  Dec 2019 – Jun 2020 (7M) | Freelance
+                </span>
+                <p class="experience__description">
+                  Create some web application dashboard use PHP with framework Code Igniter, Bootstrap and database MySQL.
+                </p>
+              </div>
+            </div>
+
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Back End Developer</h3>
+                <span class="experience__company">
+                  Jul 2017 – Dec 2019 (2Y6M) | Padepokan Tujuh Sembilan
+                </span>
+                <p class="experience__description">
+                  Create web application like Payroll, Core Banking use Java EE with framework Javalite, Springboot and database SQL Server.
+                  Create apps like Travel use NodeJS with framework express, database MongoDB, and Minio.
+                </p>
+              </div>
+            </div>
+
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <!-- <span class="experience__line"></span> -->
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Accounting Staff</h3>
+                <span class="experience__company">
+                  Aug 2015 – Jul 2017 (2Y) | PT Kokoh Inti Arebama Tbk
+                </span>
+                <p class="experience__description">
+                  Become an Admin calculate taxes, create and archive the invoices
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- certificates -->
+        <section class="certificate section" id="certificates">
+          <h2 class="section-title">Certificates</h2>
+          <div class="certificate__container bd-grid">
+
+            <div class="certificate__content">
+              <h3 class="certificate__title">
+                Professional Scrum Developer I
+              </h3>
+              <p class="certificate__description">
+                Scrum.org - March 2021
+              </p>
+            </div>
+
+            <div class="certificate__content">
+              <h3 class="certificate__title">
+                Indonesia Scrum Master II
+              </h3>
+              <p class="certificate__description">
+                Ekipa Agile Consultancy Indonesia - June 2021
+              </p>
+            </div>
+
+            <div class="certificate__content">
+              <h3 class="certificate__title">
+                Indonesia Scrum Master I
+              </h3>
+              <p class="certificate__description">
+                Ekipa Agile Consultancy Indonesia - April 2021
+              </p>
+            </div>
+
+            <div class="certificate__content">
+              <h3 class="certificate__title">
+                Training Data Scientist
+              </h3>
+              <p class="certificate__description">
+                Digital Talent Scholarship - April 2021
+              </p>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- languages -->
+        <section class="languages section">
+          <h2 class="section-title">Languages</h2>
+
+          <div class="languages__container">
+            <ul class="languages__content bd-grid">
+              <li class="languages__name">
+                <span class="languages__circle"></span> Indonesian
+              </li>
+              <li class="languages__name">
+                <span class="languages__circle"></span> English
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- interests -->
+        <section class="interests section">
+          <h2 class="section-title">Interests</h2>
+
+          <div class="interests__container bd-grid">
+            <div class="interests__content">
+              <i class="bx bx-coffee interests__icon"></i>
+              <span class="interests__name">Coffee</span>
+            </div>
+            <div class="interests__content">
+              <i class="bx bx-joystick interests__icon"></i>
+              <span class="interests__name">Games</span>
+            </div>
+            <div class="interests__content">
+              <i class="bx bx-code-block interests__icon"></i>
+              <span class="interests__name">Coding</span>
+            </div>
+            <div class="interests__content">
+              <i class="bx bx-basketball interests__icon"></i>
+              <span class="interests__name">Basketball</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- scroll top -->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+  </a>
+
+  <!-- html2pdf -->
+  <script src="assets/js/html2pdf.bundle.min.js"></script>
+  <!-- main js -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
