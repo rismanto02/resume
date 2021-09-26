@@ -102,7 +102,7 @@ function removeScale() {
     margin: 0,
     filename: "myResume.pdf",
     image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 4 },
+    html2canvas: { scale: 5 },
     jsPDF: { format: "a4", orientation: "portrait" },
   };
   
