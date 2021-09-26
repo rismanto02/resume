@@ -100,10 +100,10 @@ function removeScale() {
   // Html2pdf options
   let opt = {
     margin: 0,
-    filename: "myResume.pdf",
+    filename: "resume-rismanto-ahirudin.pdf",
     image: { type: "jpeg", quality: 0.98 },
     html2canvas: { scale: 5 },
-    jsPDF: { format: "a4", orientation: "portrait" },
+    jsPDF: { format: "a3", orientation: "portrait" },
   };
   
   // Function to call areaCv and Html2Pdf options
