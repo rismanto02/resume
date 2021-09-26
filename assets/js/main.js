@@ -102,8 +102,8 @@ function removeScale() {
     margin: 0,
     filename: "resume-rismanto-ahirudin.pdf",
     image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 3 },
-    jsPDF: { format: "a4", orientation: "portrait" },
+    html2canvas: { scale: 4 },
+    jsPDF: { format: "letter", orientation: "portrait" },
   };
   
   // Function to call areaCv and Html2Pdf options
