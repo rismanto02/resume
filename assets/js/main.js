@@ -98,13 +98,26 @@ function removeScale() {
   let resumeButton = document.getElementById("resume-button");
   
   // Html2pdf options
+  // let opt = {
+  //   margin: 0,
+  //   filename: "resume-rismanto-ahirudin.pdf",
+  //   // image: { type: "jpeg", quality: 0.98 },
+  //   html2canvas: { scale: 4 },
+  //   jsPDF: { format: "a4", orientation: "portrait" },
+  // };
+
+  let body = document.body
+  let html = document.documentElement
+  let height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight)
+  let heightCM = height / 35.35
+
+  // Html2pdf options
   let opt = {
     margin: 0,
     filename: "resume-rismanto-ahirudin.pdf",
-    // image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 4 },
-    jsPDF: { format: "a4", orientation: "portrait" },
-  };
+    html2canvas: { dpi: 192, letterRendering: true },
+    jsPDF: { format: [heightCM, 60], orientation: "portrait", unit: 'cm' },
+  }
   
   // Function to call areaCv and Html2Pdf options
   function generateResume() {
